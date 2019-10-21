@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19437" started-at="2019-10-18T11:50:16Z" finished-at="2019-10-18T11:50:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19437" started-at="2019-10-18T11:50:16Z" finished-at="2019-10-18T11:50:36Z">
+      <class name="DataProvider_TestNG.MyClass">
+        <test-method status="PASS" signature="setup()[pri:0, instance:DataProvider_TestNG.MyClass@3b6eb2ec]" name="setup" is-config="true" duration-ms="6505" started-at="2019-10-18T17:20:17Z" finished-at="2019-10-18T17:20:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="form(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:DataProvider_TestNG.MyClass@3b6eb2ec]" name="form" duration-ms="11" started-at="2019-10-18T17:20:24Z" data-provider="getTestdata" finished-at="2019-10-18T17:20:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Adi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bhale]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5/41/19]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[alexchance@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[rampur]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[411057.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[pune]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Jammu]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1234567.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[alex1234]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[alex1234]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at DataProvider_TestNG.MyClass.form(MyClass.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:DataProvider_TestNG.MyClass@3b6eb2ec]" name="setup" is-config="true" duration-ms="6219" started-at="2019-10-18T17:20:24Z" finished-at="2019-10-18T17:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="form(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:DataProvider_TestNG.MyClass@3b6eb2ec]" name="form" duration-ms="2" started-at="2019-10-18T17:20:30Z" data-provider="getTestdata" finished-at="2019-10-18T17:20:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[don]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bhale]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5/41/19]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[alexchance@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[rampur]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[411057.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[pune]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Jammu]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1234567.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[alex1234]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[alex1234]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at DataProvider_TestNG.MyClass.form(MyClass.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:DataProvider_TestNG.MyClass@3b6eb2ec]" name="setup" is-config="true" duration-ms="5806" started-at="2019-10-18T17:20:30Z" finished-at="2019-10-18T17:20:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="form(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:DataProvider_TestNG.MyClass@3b6eb2ec]" name="form" duration-ms="0" started-at="2019-10-18T17:20:36Z" data-provider="getTestdata" finished-at="2019-10-18T17:20:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bhale]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5/41/19]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[alexchance@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[rampur]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[411057.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[pune]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Jammu]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1234567.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[alex1234]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[alex1234]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at DataProvider_TestNG.MyClass.form(MyClass.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form -->
+      </class> <!-- DataProvider_TestNG.MyClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
